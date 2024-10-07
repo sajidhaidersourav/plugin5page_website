@@ -1,0 +1,212 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+/* common */
+:root{
+    --block: #000000;
+    --ssh: #e2e8f0;
+    --blue: #0000ff ; 
+    --rob : "Roboto", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--rob);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ssh);
+}
+/* preload start */
+
+#loading {
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin-top: 0px;
+    top: 0px;
+  }
+  #loading-center {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  #loading-center-absolute {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: -75px;
+    margin-left: -75px;
+  }
+  .object {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    float: left;
+    margin-right: 20px;
+    margin-top: 65px;
+    -moz-border-radius: 50% 50% 50% 50%;
+    -webkit-border-radius: 50% 50% 50% 50%;
+    border-radius: 50% 50% 50% 50%;
+  }
+  
+  #object_one {
+    -webkit-animation: object_one 1.5s infinite;
+    animation: object_one 1.5s infinite;
+  }
+  #object_two {
+    -webkit-animation: object_two 1.5s infinite;
+    animation: object_two 1.5s infinite;
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+  }
+  #object_three {
+    -webkit-animation: object_three 1.5s infinite;
+    animation: object_three 1.5s infinite;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+  
+  @-webkit-keyframes object_one {
+    75% {
+      -webkit-transform: scale(0);
+    }
+  }
+  
+  @keyframes object_one {
+    75% {
+      transform: scale(0);
+      -webkit-transform: scale(0);
+    }
+  }
+  
+  @-webkit-keyframes object_two {
+    75% {
+      -webkit-transform: scale(0);
+    }
+  }
+  
+  @keyframes object_two {
+    75% {
+      transform: scale(0);
+      -webkit-transform: scale(0);
+    }
+  }
+  
+  @-webkit-keyframes object_three {
+    75% {
+      -webkit-transform: scale(0);
+    }
+  }
+  
+  @keyframes object_three {
+    75% {
+      transform: scale(0);
+      -webkit-transform: scale(0);
+    }
+  }
+  
+  /* preload end */
+  .c_h2{
+    padding: 20px 0px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+/* header strat */
+header{
+    padding: 10px 0px;
+    background-color: var(--ssh);
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+.menu ul li{
+    padding: 0px 20px;
+}
+.menu ul li:first-child{
+    padding-left: 0px;
+}
+.menu ul li:last-child{
+    padding-right: 0px;
+}
+.menu ul li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--block);
+    transition: 0.4s;
+}
+.menu ul li a:hover{
+    color: var(--blue);
+}
+.active{
+    color: var(--blue) !important;
+}
+/* header end */
+/* slider strat */
+.slider1{
+    padding: 20px 0px;
+}
+.slider_item{
+    min-height: 300px;
+}
+.slider_item h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    line-height: 275px;
+}
+.blue{
+    background-color: #0000ff;
+}
+.red{
+    background-color: red;
+}
+.brown{
+    background-color: brown;
+}
+.blard{
+    background-color: darkred;
+}
+.pink{
+    background-color: deeppink;
+}
+.indigo{
+    background-color: indigo;
+}
+/* responsive */
+/* Slider Syncing */
+.s3t_wapper{
+    padding-bottom: 20px;
+}
+/* slider end */
+/* counter strat */
+.text_box{
+  padding: 20px 0px;
+}
+.text_box h2{
+  padding: 20px 0px 0px;
+}
+.text_box p{
+  padding: 10px 0px;
+}
+.count{
+  padding: 50px 0px 0px;
+}
+/* counter strat */
+/* parallax strat */
+.parallax-window {
+	min-height: 500px;
+	background: transparent;
+}
+/* fotter */
+footer{
+    padding: 10px 0px;
+    border-top: 2px solid black;
+}
